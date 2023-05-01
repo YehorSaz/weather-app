@@ -1,0 +1,45 @@
+.description-wrapper {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+}
+
+.description-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+}
+
+.description-header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 100%;
+}
+
+.description-header-right {
+    width: 40%;
+    height: 100%;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form {
+    margin: 30px 0px 30px 0px;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.descriptions-left-inner {
+    font-size: 50px;
+    color: yellow;
+}
