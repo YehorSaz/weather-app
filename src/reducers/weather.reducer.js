@@ -3,8 +3,7 @@ const initState = {
     trigger: null
 };
 const weatherReducer = (state, action) => {
-    console.log(state);
-    console.log(action);
+
     switch (action.type) {
         case 'GET_WEATHER':
             return {...state, weatherData: action.payload}

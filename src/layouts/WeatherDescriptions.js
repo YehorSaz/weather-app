@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+
 import {useAppReducer} from "../hooks/useAppReducer";
 import {weatherService} from "../services/weather.service";
 import WeatherDataDescription from "../components/descriptions/WeatherDataDescription";
@@ -14,8 +15,6 @@ const WeatherDescriptions = () => {
             payload: value
         }))
     }, [trigger, dispatch]);
-
-    console.log(weatherData);
 
 
     return (

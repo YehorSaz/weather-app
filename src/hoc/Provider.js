@@ -1,4 +1,5 @@
 import {createContext, useReducer} from "react";
+
 import {initState, weatherReducer} from "../reducers/weather.reducer";
 
 const StateContext = createContext(null);
